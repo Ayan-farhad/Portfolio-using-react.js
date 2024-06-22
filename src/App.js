@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/Navbar/navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Ayan Portfolio</h1>
+      <Navbar/>
     </div>
   );
 }
