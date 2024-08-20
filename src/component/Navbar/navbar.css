@@ -128,7 +128,7 @@
         left: 0;
         right: 0;
         width: 100vw;
-        background: #11101b;
+        background:  #000336;
         transition: height 0.3s ease;
         overflow: hidden;
     }
@@ -155,7 +155,7 @@
     }
 
     .nav-li a.active {
-        color: #11101b;
-        background-color: #fefefe;
+        color:  #fefefe;
+        background-color: #3863dc;
     }
 }

@@ -1,0 +1,14 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+} */
+
+.Projects-main-container {
+    background: #22278d;
+    color: #fefefe;
+    min-height: 100vh;
+}
