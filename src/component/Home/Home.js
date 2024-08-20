@@ -15,7 +15,7 @@ function Home() {
                 <Type />
             </div>
             <div className="Home-image">
-                <img src={logo} alt="logo" className="home-logo"/>
+                <img src={logo} alt="logo" className="home-logo" />
             </div>
         </div>
     )
