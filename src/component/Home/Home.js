@@ -17,6 +17,7 @@ function Home() {
                     <div className="typewriter-container">
                         <Type />
                     </div>
+                    <a href="#"><button className="home-hire-me">Hire Me</button></a>
                 </div>
                 <div className="Home-image  animate__animated animate__backInDown">
                     <img src={logo} alt="logo" className="home-logo" />

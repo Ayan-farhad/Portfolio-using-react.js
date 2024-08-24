@@ -43,6 +43,25 @@
     line-height: 1.7;
 }
 
+/* lets talk button */
+.about-talk-btn{
+    width: 120px;
+    height: 45px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #22278d;
+    background-color: #8eb6ff;
+    box-shadow: 4px 3px 3px 4px #8eb6ff4e;
+    transition: 0.4s ease-in-out;
+}
+.about-talk-btn:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
 /* About highlights */
 .blue1 {
     color: rgb(148, 196, 243);

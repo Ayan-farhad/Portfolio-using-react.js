@@ -11,6 +11,7 @@ function About() {
                     Know Who <span className="blue">I'M</span>
                 </h1>
                 <AboutCards />
+                <a href="#contact"><button className="about-talk-btn">Let's Talk</button></a>
             </div>
 
             <div className="About-image animate__animated animate__backInDown">

@@ -85,7 +85,7 @@
 /* Name Styling */
 .Home-name {
     font-size: 2.3rem;
-    padding-bottom: 28px;
+    padding-bottom: 25px;
 }
 
 /* Typewriter Styling */
@@ -106,6 +106,24 @@
 }
 .typewriter-container{
     height: 90px;
+}
+
+/* Hire me button */
+.home-hire-me{
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #22278d;
+    background-color: #8eb6ff;
+    box-shadow: 4px 3px 3px 4px #8eb6ff4e;
+    transition: 0.4s ease-in-out;
+}
+.home-hire-me:hover{
+    box-shadow: none;
+    cursor: pointer;
 }
 
 /* Logo Styling */

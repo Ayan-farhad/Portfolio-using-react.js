@@ -34,7 +34,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className='nav-logo'>Ayan.</div>
+            <div className='nav-logo'><a href='#'>Ayan.</a></div>
 
             <div className='nav-hamburger' onClick={toggleMobileMenu}>
                 <div className={`icon-container ${isMobileMenuOpen ? 'open' : ''}`}>
