@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.top{
+    margin-top: 4rem;
+}
+
 /* Wave-animation*/
 .wave {
     animation-name: wave-animation;
@@ -52,7 +56,7 @@
 
 /* ----------------------------------------------------------------------- */
 
-/* Home container */
+/* Home container start */
 .Home-main-container {
     background: #22278d;
     color: #fefefe;
@@ -61,12 +65,15 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 /* Intro container */
 .Home-intro-container {
     width: 528px;
-    margin: 0px 50px 0
+    margin: 0px 50px 0;
+    transition: 0.3s ease;
 }
 
 /* Greeting and Name Styling */
@@ -97,54 +104,56 @@
     font-size: 2.4em;
     color: #7a9fe3;
 }
+.typewriter-container{
+    height: 90px;
+}
 
 /* Logo Styling */
 .home-logo {
     width: 500px;
+    transition: 0.3s ease;
 }
 
-/* Media Queries */
+/* Home container ends */
 
-/* Adjust smaller screens */
+
+/* Media Queries */
 @media only screen and (max-width: 1154px) {
     .home-logo {
         width: 450px;
     }
 }
 
-/* Adjust text size and layout for medium screens */
 @media only screen and (max-width: 992px) {
     .home-logo {
-        width: 350px;
+        width: 400px;
         margin: 0 0px 30px 0;
     }
     .Typewriter__wrapper {
         font-size: 1.9rem;
     }
-    .Home-main-container{
-        padding-bottom: 50px;
+    .Home-intro-container{
+        margin: 0 45px 0 0;
     }
 }
 
-/* Adjust layout for small screens */
 @media only screen and (max-width: 792px) {
     .home-logo {
         margin: 0 0 30px 0;
     }
     .Home-intro-container {
         max-width: 400px;
-        margin: 0 auto;
+        margin: auto;
     }
 }
 
-/* Adjust text size and layout for small screens */
 @media only screen and (max-width: 769px) {
     .Home-main-container {
         flex-direction: column;
         padding-top: 65px;
     }
     .Home-intro-container{
-        height: 220px;
+        text-align: center;
     }
     .home-logo {
         width: 350px;
@@ -154,12 +163,10 @@
     }
 }
 
-/* Adjust text size and layout for extra small screens */
 @media only screen and (max-width: 565px) {
     .Home-intro-container {
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin:auto;
     }
 }
 

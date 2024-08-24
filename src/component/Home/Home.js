@@ -1,21 +1,26 @@
 import "./Home.css";
 import Type from "./type";
 import logo from "../../Assets/home-img.webp";
+import 'animate.css';
 
 function Home() {
     return (
-        <div className="Home-main-container">
-            <div className="Home-intro-container">
-                <div className="Home-greeting">Hi There!{" "}
-                    <span className="wave" role="img" aria-labelledby="wave">
-                        👋🏻
-                    </span>
+        <div id="home" className="top">
+            <div className="Home-main-container">
+                <div className="Home-intro-container  animate__animated animate__backInLeft">
+                    <div className="Home-greeting">Hi There!{" "}
+                        <span className="wave" role="img" aria-labelledby="wave">
+                            👋🏻
+                        </span>
+                    </div>
+                    <div className="Home-name">I'M <span className="name-styling">AYAN FARHAD</span></div>
+                    <div className="typewriter-container">
+                        <Type />
+                    </div>
                 </div>
-                <div className="Home-name">I'M <span className="name-styling">AYAN FARHAD</span></div>
-                <Type />
-            </div>
-            <div className="Home-image">
-                <img src={logo} alt="logo" className="home-logo" />
+                <div className="Home-image  animate__animated animate__backInDown">
+                    <img src={logo} alt="logo" className="home-logo" />
+                </div>
             </div>
         </div>
     )

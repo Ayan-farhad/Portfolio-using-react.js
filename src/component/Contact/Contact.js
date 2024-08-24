@@ -2,8 +2,8 @@ import "./Contact.css";
 
 function Contact() {
     return (
-        <div className="Contact-main-container">
-            <h1>Contact page</h1>
+        <div id="contact" className="Contact-main-container">
+            <h1>Contact Me</h1>
         </div>
     )
 }

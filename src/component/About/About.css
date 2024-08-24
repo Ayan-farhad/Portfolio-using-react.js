@@ -1,14 +1,100 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     font-family: sans-serif;
     box-sizing: border-box;
-} */
+}
 
+/* About main container */
 .About-main-container {
     background: #1e2270;
     color: #fefefe;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 0 0;
+}
+
+/* About intro container */
+.about-intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    margin: auto 0;
+    padding-bottom: 130px;
+}
+
+/* About h1 */
+.about-h1 {
+    font-size: 2.1rem;
+    padding-bottom: 10px;
+}
+
+/* About me */
+.about-me {
+    font-size: 21px;
+    margin-top: 36px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+/* About highlights */
+.blue1 {
+    color: rgb(148, 196, 243);
+    font-size: 21px;
+    font-weight: 540;
+}
+
+.blue {
+    color: rgb(148, 196, 243);
+}
+
+/* About logo */
+.About-logo {
+    width: 400px;
+    margin-top: 50px;
+}
+
+
+/* Media Queries */
+/* Adjust smaller screens */
+@media only screen and (max-width: 1154px) {
+    .About-logo {
+        width: 380px;
+        margin: 0 auto;
+    }
+}
+
+/* Adjust text size and layout for medium screens */
+@media only screen and (max-width: 992px) {
+    .About-main-container {
+        flex-direction: column;
+    }
+
+    .about-intro-container {
+        margin: 0 auto;
+    }
+}
+
+/* Adjust text size and layout for extra small screens */
+@media only screen and (max-width: 565px) {
+    .about-intro-container {
+        margin: 0 20px 0 20px;
+    }
+
+    .About-logo {
+        width: 360px;
+    }
+}
+
+/* For Mobile screen */
+@media only screen and (max-width: 420px) {
+    .About-logo {
+        width: 290px;
+    }
 }

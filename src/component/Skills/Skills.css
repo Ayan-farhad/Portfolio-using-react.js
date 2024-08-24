@@ -1,14 +1,99 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     font-family: sans-serif;
     box-sizing: border-box;
-} */
+}
 
+/* Skill main container */
 .Skills-main-container {
     background: #22278d;
     color: #fefefe;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 65px 0 0;
 }
+
+/* heading */
+.skill-heading {
+    font-size: 2.2rem;
+    margin: 0 0 10px;
+}
+
+/* icon layout */
+.icon-layout {
+    font-size: 4.2rem;
+    margin: 15px;
+    padding: 10px;
+    width: 180px;
+    opacity: 0.93;
+    border: 1.7px solid rgba(223, 191, 238, 0.637);
+    border-radius: 8px;
+    box-shadow: 4px 5px 4px 3px rgba(193, 189, 197, 0.272);
+    transition: all 0.4s ease;
+    box-sizing: border-box;
+}
+
+.icon-layout:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    border: 1.8px solid rgb(148, 196, 243);
+}
+
+.icon-layout p {
+    font-size: 25px;
+    margin: auto;
+}
+
+/* Responsive */
+.skills-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Media Queries */
+/* Adjust smaller screens */
+@media only screen and (max-width: 1154px) {
+    .icon-layout {
+        font-size: 3.9rem;
+        margin: 10px;
+        padding: 10px;
+        width: 160px;
+    }
+
+    .icon-layout p {
+        font-size: 23px;
+    }
+}
+
+/* Adjust text size and layout for medium screens */
+@media only screen and (max-width: 992px) {
+    .icon-layout {
+        font-size: 3.5rem;
+        margin: 8px;
+        padding: 8px;
+        width: 140px;
+    }
+
+    .icon-layout p {
+        font-size: 21px;
+    }
+
+    .skills-grid {
+        display: flex;
+    }
+}
+
+/* Adjust text size and layout for extra small screens */
+@media only screen and (max-width: 565px) {}
+
+/* For Mobile screen */
+@media only screen and (max-width: 420px) {}

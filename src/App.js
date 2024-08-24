@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/*<Projects/>
       <Skills/>
-      <Contact/> */}
+      {/*<Projects/>*/}
+      <Contact/> 
     </div>
   );
 }
